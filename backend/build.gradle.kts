@@ -1,3 +1,5 @@
+import org.gradle.api.JavaVersion.VERSION_11
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
@@ -5,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.backend"
-    compileSdk = 34
+    compileSdk = 24
 
     defaultConfig {
         minSdk = 24
@@ -24,8 +26,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = VERSION_11
+        targetCompatibility = VERSION_11
     }
     kotlinOptions {
         jvmTarget = "11"

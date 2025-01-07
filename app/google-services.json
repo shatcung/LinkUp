@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421449688694",
+    "project_id": "linkup-4dfc2",
+    "storage_bucket": "linkup-4dfc2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421449688694:android:61a695ba9fdcc2e813a157",
+        "android_client_info": {
+          "package_name": "com.example.ProjectManagementMessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7UmTtXpcNhles2JCT4LFC5pBP_egx5ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
